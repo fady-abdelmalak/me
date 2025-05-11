@@ -86,9 +86,6 @@
           flex-direction: column;
           gap: 0.5rem;
         }
-        .header-links span {
-          display: none;
-        }
         .experience-date {
           margin-top: 0.5rem;
         }
@@ -103,9 +100,9 @@
     <title>Fady Abdelmalak - Software Engineer</title>
   </head>
   <body class="bg-gray-50">
-    <main class="max-w-4xl mx-auto p-4 sm:p-8">
+    <main class="max-w-4xl mx-auto p-4 sm:p-8 print:py-6">
       <!-- Header Section -->
-      <header class="text-center mb-8 sm:mb-12 no-break">
+      <header class="text-center mb-8 sm:mb-12 no-break print:mb-6">
         <h1
           class="text-3xl sm:text-5xl font-bold text-gray-800 mb-2 sm:mb-3 tracking-tight"
         >
@@ -115,7 +112,7 @@
           Senior Software Engineer
         </p>
         <div
-          class="flex flex-col sm:flex-row justify-center gap-2 sm:gap-6 mt-4 sm:mt-6 text-gray-600 header-links"
+          class="flex flex-col sm:flex-row justify-center gap-2 sm:gap-6 mt-3 sm:mt-5 text-gray-600 header-links"
         >
           <a
             href="mailto:fady.m.abdelmalak@gmail.com"
@@ -134,7 +131,8 @@
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               />
             </svg>
-            fady.m.abdelmalak@gmail.com
+            <span class="hidden print:inline">fady.m.abdelmalak@gmail.com</span>
+            <span class="inline print:hidden">Email</span>
           </a>
           <span class="text-gray-300 hidden sm:inline">•</span>
           <a
@@ -164,7 +162,7 @@
       </header>
 
       <!-- Summary Section -->
-      <section class="mb-8 sm:mb-12 no-break">
+      <section class="mb-8 sm:mb-12 no-break print:mb-6">
         <h2
           class="text-2xl font-semibold text-gray-800 mb-4 sm:mb-6 section-title"
         >
@@ -181,7 +179,7 @@
       </section>
 
       <!-- Skills Section -->
-      <section class="mb-8 sm:mb-12 no-break">
+      <section class="mb-8 sm:mb-12 no-break print:mb-6">
         <h2
           class="text-2xl font-semibold text-gray-800 mb-4 sm:mb-6 section-title"
         >
@@ -291,7 +289,7 @@
       </section>
 
       <!-- Experience Section -->
-      <section class="mb-8 sm:mb-12 no-break">
+      <section class="mb-8 sm:mb-12 no-break print:mb-6">
         <h2
           class="text-2xl font-semibold text-gray-800 mb-4 sm:mb-6 section-title"
         >
@@ -437,7 +435,7 @@
       </section>
 
       <!-- Education Section -->
-      <section class="mb-8 sm:mb-12 no-break">
+      <section class="mb-8 sm:mb-12 no-break print:mb-6">
         <h2
           class="text-2xl font-semibold text-gray-800 mb-4 sm:mb-6 section-title"
         >
